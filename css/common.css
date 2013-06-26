@@ -94,6 +94,9 @@ button::-moz-focus-inner {
     padding: 0;
     border: 0
 }
+button:hover{
+    cursor: pointer;
+}
 
 /*ClearFix*/
 .clearFix:after {
@@ -2043,6 +2046,16 @@ body.sub .main-content {
     padding: 0 10px;
     font-size: 13px;
 }
+input::-webkit-input-placeholder {
+    font-style: italic;
+    color: #bbbbbb;
+    font-size: 13px;
+}
+input:-moz-placeholder {
+    font-style: italic;
+    color: #bbbbbb;
+    font-size: 13px;
+}
 .ie8 .visa-field-cvc input,
 .ie8 .visa-field-number input{
     padding: 10px;
@@ -3095,7 +3108,9 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#dbdbdb', end
     position: absolute;
     top: 110px;
     left: 135px;
+
 }
+
 .selectStyle{
     display: inline-block;
     border-radius: 5px;
