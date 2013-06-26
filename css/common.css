@@ -2085,6 +2085,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ce0003', end
     padding: 0 10px;
     font-size: 13px;
 }
+.ie8 .visa-field-cvc input,
 .ie8 .visa-field-number input{
     padding: 10px;
 }
@@ -3223,7 +3224,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#dbdbdb', end
 }
 
 .ie8 .bootstrap-select button .caret{
-    ackground: url("select-right-visa.png") no-repeat 2px -8px;
+    background: url("select-right-visa.png") no-repeat 2px -8px;
 
 }
 
