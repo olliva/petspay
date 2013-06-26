@@ -473,11 +473,9 @@
 
                             </div>
                             <div class="stepButtons">
-                                <input type="button" class="greyButton rc5" value="Предыдущий шаг" />
+                                <input type="button" class="greyButton" value="Предыдущий шаг" />
                                 <input type="button" class="redButton" value="Следующий шаг" />
                             </div>
-                                <div class="rc10" style="background-color: red">Sample rounded block with 10-pixel radius</div>
-
                         </div>
 
 
@@ -550,31 +548,11 @@ All rights reserved
 <script type="text/javascript" src="js/bootstrap.min.js"></script>
 <script type="text/javascript" src="js/bootstrap-select.js"></script>
 <script type="text/javascript" src="js/modernizr.js"></script>
-<script type="text/javascript" src="js/rounded-conners.js"></script>
 <script type="text/javascript">
     $(document).ready(function () {
-      
-
         //selects
         $('.cardSelect').selectpicker({style: 'selectStyle '});
-
-        $('.headerNav').fadeIn();
     })
 </script>
-<script type="text/javascript">
-            function replaceCorners() {
-                var colors = ['#00f', '#f0f', '#fff', '#fc0', '#ffe'];
-                var elem = document.getElementById('rep');
-                
-                var with_border = Math.round(Math.random());
-                var round = 'rc' + Math.round(Math.random() * 18 + 2);
-                var color = colors[Math.floor(Math.random() * colors.length)];
-                
-                elem.className = 'rounded ' + round + ((with_border) ? ' with-border' : '');
-                elem.parentNode.style.backgroundColor = color;
-                
-                rocon.update(elem);
-            }
-        </script>
 </body>
 </html>

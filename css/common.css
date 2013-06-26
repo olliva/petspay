@@ -405,9 +405,7 @@ body.sub .main-content {
 
 /* search */
 
-.search-wr {
 
-}
 
 .search-top {
     background: url("../images/search-corners.png") no-repeat;
@@ -823,46 +821,6 @@ body.sub .main-content {
     margin-top: 6px;
     font-style: italic;
     font-size: 13px;
-}
-.registrationFields .inputButton{
-    height: 34px;
-    width: 190px;
-    background: rgb(255,59,65); /* Old browsers */
-    background: -moz-linear-gradient(top,  rgba(255,59,65,1) 0%, rgba(209,7,13,1) 100%); /* FF3.6+ */
-    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,59,65,1)), color-stop(100%,rgba(209,7,13,1))); /* Chrome,Safari4+ */
-    background: -webkit-linear-gradient(top,  rgba(255,59,65,1) 0%,rgba(209,7,13,1) 100%); /* Chrome10+,Safari5.1+ */
-    background: -o-linear-gradient(top,  rgba(255,59,65,1) 0%,rgba(209,7,13,1) 100%); /* Opera 11.10+ */
-    background: -ms-linear-gradient(top,  rgba(255,59,65,1) 0%,rgba(209,7,13,1) 100%); /* IE10+ */
-    background: linear-gradient(to bottom,  rgba(255,59,65,1) 0%,rgba(209,7,13,1) 100%); /* W3C */
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff3b41', endColorstr='#d1070d',GradientType=0 ); /* IE6-9 */
-    border: 1px solid transparent;
-    border-radius: 5px;
-    color: white;
-    font-size: 14px;
-    text-shadow: 0 -1px 1px #b20000;
-}
-.registrationFields .inputButton:hover{
-    cursor: pointer;
-    background: rgb(255,48,51); /* Old browsers */
-background: -moz-linear-gradient(top,  rgba(255,48,51,1) 0%, rgba(206,0,3,1) 100%); /* FF3.6+ */
-background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,48,51,1)), color-stop(100%,rgba(206,0,3,1))); /* Chrome,Safari4+ */
-background: -webkit-linear-gradient(top,  rgba(255,48,51,1) 0%,rgba(206,0,3,1) 100%); /* Chrome10+,Safari5.1+ */
-background: -o-linear-gradient(top,  rgba(255,48,51,1) 0%,rgba(206,0,3,1) 100%); /* Opera 11.10+ */
-background: -ms-linear-gradient(top,  rgba(255,48,51,1) 0%,rgba(206,0,3,1) 100%); /* IE10+ */
-background: linear-gradient(to bottom,  rgba(255,48,51,1) 0%,rgba(206,0,3,1) 100%); /* W3C */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff3033', endColorstr='#ce0003',GradientType=0 ); /* IE6-9 */
-
-}
-.registrationFields .inputButton:active{
-    background: rgb(206,0,3); /* Old browsers */
-background: -moz-linear-gradient(top,  rgba(206,0,3,1) 0%, rgba(255,48,51,1) 100%); /* FF3.6+ */
-background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(206,0,3,1)), color-stop(100%,rgba(255,48,51,1))); /* Chrome,Safari4+ */
-background: -webkit-linear-gradient(top,  rgba(206,0,3,1) 0%,rgba(255,48,51,1) 100%); /* Chrome10+,Safari5.1+ */
-background: -o-linear-gradient(top,  rgba(206,0,3,1) 0%,rgba(255,48,51,1) 100%); /* Opera 11.10+ */
-background: -ms-linear-gradient(top,  rgba(206,0,3,1) 0%,rgba(255,48,51,1) 100%); /* IE10+ */
-background: linear-gradient(to bottom,  rgba(206,0,3,1) 0%,rgba(255,48,51,1) 100%); /* W3C */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ce0003', endColorstr='#ff3033',GradientType=0 ); /* IE6-9 */
-
 }
 
 .checkBoxButton{
