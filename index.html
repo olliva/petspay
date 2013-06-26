@@ -479,7 +479,7 @@
                                 <div class="rc10" style="background-color: red">Sample rounded block with 10-pixel radius</div>
 
                         </div>
-                        
+
 
                     </div>
                 </div>
@@ -561,5 +561,20 @@ All rights reserved
         $('.headerNav').fadeIn();
     })
 </script>
+<script type="text/javascript">
+            function replaceCorners() {
+                var colors = ['#00f', '#f0f', '#fff', '#fc0', '#ffe'];
+                var elem = document.getElementById('rep');
+                
+                var with_border = Math.round(Math.random());
+                var round = 'rc' + Math.round(Math.random() * 18 + 2);
+                var color = colors[Math.floor(Math.random() * colors.length)];
+                
+                elem.className = 'rounded ' + round + ((with_border) ? ' with-border' : '');
+                elem.parentNode.style.backgroundColor = color;
+                
+                rocon.update(elem);
+            }
+        </script>
 </body>
 </html>
