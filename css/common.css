@@ -2085,6 +2085,9 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ce0003', end
     padding: 0 10px;
     font-size: 13px;
 }
+.ie8 .visa-field-number input{
+    padding: 10px;
+}
 
 .visa-field-cvc {
     position: absolute;
@@ -3032,6 +3035,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ce0003', end
     background: url(../images/payment_5.png) no-repeat center 30px;
 }
 
+/*main properties for paied steps buttons*/
+
 
 .stepButtons{
     margin-top: 28px;
@@ -3045,6 +3050,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ce0003', end
     font-size: 14px;
     margin-right: 10px;
 }
+
+/*red button for paied steps*/
 
 .redButton{
     height: 34px;
@@ -3083,6 +3090,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ce0003', end
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ce0003', endColorstr='#ff3033',GradientType=0 ); /* IE6-9 */
 }
 
+/*grey button for paied steps*/
+
 .greyButton{
     border: 1px solid #eaeaea;
     background: rgb(252,252,252); /* Old browsers */
@@ -3119,6 +3128,9 @@ background: linear-gradient(to bottom,  rgba(219,219,219,1) 0%,rgba(247,247,247,
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#dbdbdb', endColorstr='#f7f7f7',GradientType=0 ); /* IE6-9 */
 
 }
+
+
+/*custom select*/
 
 .selectContainer{
     position: absolute;
@@ -3195,8 +3207,6 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#dbdbdb', end
     color: black;
 }
 
-
-
 .bootstrap-select button .caret{
     width: 31px;
     height: 34px;
@@ -3209,6 +3219,11 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#dbdbdb', end
     font-size: 20px;
     font-weight: bolder;
     color: white;
+
+}
+
+.ie8 .bootstrap-select button .caret{
+    ackground: url("select-right-visa.png") no-repeat 2px -8px;
 
 }
 
